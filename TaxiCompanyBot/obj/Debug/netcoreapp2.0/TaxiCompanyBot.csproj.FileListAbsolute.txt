@@ -1,0 +1,12 @@
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\BotConfiguration.bot
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\TaxiCompanyBot.deps.json
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\TaxiCompanyBot.runtimeconfig.json
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\TaxiCompanyBot.runtimeconfig.dev.json
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\TaxiCompanyBot.dll
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\bin\Debug\netcoreapp2.0\TaxiCompanyBot.pdb
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.csprojAssemblyReference.cache
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.csproj.CoreCompileInputs.cache
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.AssemblyInfoInputs.cache
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.AssemblyInfo.cs
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.dll
+C:\Users\pasan\Desktop\Bot docs\TaxiCompanyBot\TaxiCompanyBot\obj\Debug\netcoreapp2.0\TaxiCompanyBot.pdb

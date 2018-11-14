@@ -1,0 +1,24 @@
+﻿{
+  "name": "TaxiCompanyBot",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "luis",
+      "name": "MiniprojectLuisBot",
+      "AppId": "550b2564-5c97-4400-9c0a-10c2ca2cf0cb",
+      "SubscriptionKey": "6a0e9fbe361b45f5b09a06e89a1aba0e",
+      "AuthoringKey": "6a0e9fbe361b45f5b09a06e89a1aba0e",
+      "GetEndpoint": "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/550b2564-5c97-4400-9c0a-10c2ca2cf0cb?subscription-key=6a0e9fbe361b45f5b09a06e89a1aba0e&timezoneOffset=-360&q=",
+      "Region": "westus"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
