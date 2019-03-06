@@ -4,7 +4,7 @@
 using System;
 using Microsoft.Bot.Builder;
 
-namespace TaxiCompanyBot
+namespace TaxiBot
 {
     /// <summary>
     /// This class is created as a Singleton and passed into the IBot-derived constructor.
@@ -12,17 +12,16 @@ namespace TaxiCompanyBot
     ///  - See the Startup.cs file for more details on creating the Singleton that gets
     ///    injected into the constructor.
     /// </summary>
-    public class EchoBotAccessors
+    public class TaxiBotAccessors
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="EchoBotAccessors"/> class.
+        /// Initializes a new instance of the class.
         /// Contains the <see cref="ConversationState"/> and associated <see cref="IStatePropertyAccessor{T}"/>.
         /// </summary>
         /// <param name="conversationState">The state object that stores the counter.</param>
-        public EchoBotAccessors(ConversationState conversationState,UserState userState)
+        public TaxiBotAccessors(ConversationState conversationState)
         {
             ConversationState = conversationState ?? throw new ArgumentNullException(nameof(conversationState));
-            UserState = userState ?? throw new ArgumentNullException(nameof(userState));
         }
 
         /// <summary>
@@ -30,10 +29,7 @@ namespace TaxiCompanyBot
         /// </summary>
         /// <remarks>Accessors require a unique name.</remarks>
         /// <value>The accessor name for the counter accessor.</value>
-        public static string CounterStateName { get; } = $"{nameof(EchoBotAccessors)}.CounterState";
-        public static string UserStateinputsName { get; } = $"{nameof(EchoBotAccessors)}.UserStateinputs";
-        public static string TopicStateName { get; } = $"{nameof(EchoBotAccessors)}.TopicState";
-
+        public static string CounterStateName { get; } = $"{nameof(TaxiBotAccessors)}.CounterState";
 
         /// <summary>
         /// Gets or sets the <see cref="IStatePropertyAccessor{T}"/> for CounterState.
@@ -42,26 +38,11 @@ namespace TaxiCompanyBot
         /// The accessor stores the turn count for the conversation.
         /// </value>
         public IStatePropertyAccessor<CounterState> CounterState { get; set; }
-        public IStatePropertyAccessor<TopicState> TopicState { get; set; }
-        public IStatePropertyAccessor<UserStateInputs> UserStateInputs { get; set; }    
 
         /// <summary>
         /// Gets the <see cref="ConversationState"/> object for the conversation.
         /// </summary>
         /// <value>The <see cref="ConversationState"/> object.</value>
         public ConversationState ConversationState { get; }
-        public UserState UserState { get; }
-
-    }
-    public class UserStateInputs
-    {
-        public bool DidBotWelcomeUser { get; set; } = false;
-        public string UserName { get; set; }
-        public string Choice { get; set; }
-    }
-
-    public class TopicState
-    {
-        public string Prompt { get; set; } = "AskName";
     }
 }
