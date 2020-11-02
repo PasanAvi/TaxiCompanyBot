@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiBot", "TaxiBot\TaxiBot.csproj", "{70E57955-730A-4E55-829F-E3D049D6DDB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiCompanyChatbot", "TaxiCompanyChatbot\TaxiCompanyChatbot.csproj", "{2B1313E2-6289-4F6F-997D-0B0EE84C305E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70E57955-730A-4E55-829F-E3D049D6DDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70E57955-730A-4E55-829F-E3D049D6DDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70E57955-730A-4E55-829F-E3D049D6DDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70E57955-730A-4E55-829F-E3D049D6DDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1313E2-6289-4F6F-997D-0B0EE84C305E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1313E2-6289-4F6F-997D-0B0EE84C305E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1313E2-6289-4F6F-997D-0B0EE84C305E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1313E2-6289-4F6F-997D-0B0EE84C305E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
